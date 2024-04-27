@@ -1,0 +1,86 @@
+body {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right, #563838, #d6118bf8);
+    font-family: "Shadows Into Light"
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+  
+}
+
+input[type="number"] {
+    width: 100px;
+    border: 0px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 4px #b8b5d4; 
+   
+    
+
+
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#password {
+    margin-top: 20px;
+    width: 200px;
+    border: 0px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-shadow: 4px 3px 4px  #b8b5d4; 
+    
+    
+}
+
+.container h1{
+   margin-bottom: 50px;
+   padding: 0px;
+   font-size: 50px;
+   font-family: "Shadows Into Light";
+   color: white;
+   
+  
+
+}
+
+.container button{
+    background-color: blue;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    font-family: "Shadows Into Light";
+    box-shadow: 4px 3px 4px #2c1d9e;
+}
+
+.container label {
+    font-weight: bolder;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    color: white;
+  
+
+}
+
+
+    
